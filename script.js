@@ -1,33 +1,3 @@
-// https://gauravgitacc.github.io/postAppData/auctionData.json
-// let response = fetch(
-//   "https://gauravgitacc.github.io/postAppData/auctionData.json"
-// );
-
-//fetch returns a promise
-//that promise will indicate network call
-
-// response.then((serverResponse) => {
-//     //serverResponse is going to be instance of Response class
-//     //data will be encoded
-
-//     let data = serverResponse.json();
-
-//     //data is of promise again
-
-//     data.then((result) =>{
-//         console.log(result);
-//     })
-//     data.catch((error) =>{
-//         console.log("Failed to parse the data", error)
-//     });
-// })
-
-// response.catch((error) => {
-//     console.log("some error", error);
-// })
-
-//----------------------------------------------------
-
 let cardsContainer = document.getElementsByClassName("cards-container")[0];
 function addDataOnToUI(resultsList) {
   //takes care of the Dom manipulation
